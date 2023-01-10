@@ -58,8 +58,33 @@
 .btn-dark a,
 .bg-light a,
 .btn-light a {
-color: #fff;
+
 }
+
+/*Text Colors*/
+.text-primary
+{
+    color: var(--primary-color);
+    
+}
+
+.text-secondary {
+    color: var(--secondary-color);
+    
+}
+
+.text-dark
+{
+    color: var(--dark-color);
+    
+}
+
+.text-light
+ {
+    color: var(--light-color);
+    
+}
+
 /* Text Sized */
 .lead {
     font-size: 20px;
@@ -85,6 +110,27 @@ color: #fff;
     text-align: center;
 }
 
+/*Alert*/
+.alert {
+    background-color: var(--light-color);
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.alert i {
+    margin-right: 10px;
+}
+
+.alert-success {
+    background-color: var(--success-color);
+    color: #fff;
+}
+
+.alert-errpr {
+    background-color: var(--error-color);
+    color: #fff;
+}
 
 .flex {
     display: flex;
@@ -96,7 +142,7 @@ color: #fff;
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
     align-items: center;
@@ -112,6 +158,10 @@ color: #fff;
 /*Margin*/
 .my-1 {
     margin: 1rem 0;
+} 
+
+.my-2 {
+    margin: 1.5rem 0;
 } 
 
 
